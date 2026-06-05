@@ -1,4 +1,4 @@
-#  RootLens AI — Cross-Modal Analytics Platform
+#  InsightFusion AI — Cross-Modal Analytics Platform
 
 > **"Upload your disconnected business data. Find out exactly why your business is suffering."**
 
