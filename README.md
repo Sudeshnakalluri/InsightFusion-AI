@@ -354,4 +354,22 @@ RECOMMENDATIONS
 |  Data Explorer | Browse cleaned data row by row, view column statistics |
 |  Report | Full downloadable analysis report in Markdown format |
 
+## AI Tools Used
 
+| Tool | Purpose |
+|------|---------|
+| Scipy (Pearson Correlation) | Detect hidden cross-dataset relationships |
+| Pandas | Data cleaning, joining, normalization |
+| Plotly | Interactive data visualizations |
+| Streamlit | AI-powered analytics dashboard |
+
+No external AI API used. All intelligence runs locally through statistical analysis.
+
+---
+
+## Team Members
+
+| Name | Role |
+|------|------|
+| Sudeshna Kalluri | Data Engineering + Correlation Engine + Backend |
+| Sunke Akshaya  | UI/UX Dashboard + Visualization + Deployment |
