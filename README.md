@@ -1,4 +1,4 @@
-# ⚡ RootLens AI — Cross-Modal Analytics Platform
+#  RootLens AI — Cross-Modal Analytics Platform
 
 > **"Upload your disconnected business data. Find out exactly why your business is suffering."**
 
@@ -6,7 +6,7 @@ RootLens AI is an intelligent analytics platform that ingests multiple disconnec
 
 ---
 
-## 🧠 The Core Idea
+##  The Core Idea
 
 Modern businesses store data across many separate files:
 - Orders in one file
@@ -33,7 +33,7 @@ That full chain was invisible when the files were separate. RootLens makes it vi
 
 ---
 
-## 📂 Dataset Used
+##  Dataset Used
 
 ### Olist Brazilian E-Commerce Dataset
 
@@ -74,7 +74,7 @@ olist_orders_dataset.csv
 
 ---
 
-## ❗ Problem Statement
+##  Problem Statement
 
 ### The Business Problem
 
@@ -134,7 +134,7 @@ ROOTLENS AI ANSWER:
 
 ---
 
-## 🔍 How It Works — Step by Step
+##  How It Works — Step by Step
 
 ### Step 1: Data Ingestion
 Upload any combination of the Olist CSV files through the sidebar. The app accepts multiple files simultaneously and automatically detects what each file contains based on its filename.
@@ -164,7 +164,7 @@ Results are presented across 5 tabs with interactive charts, confidence scores, 
 
 ---
 
-## 📊 Key Findings From the Olist Dataset
+##  Key Findings From the Olist Dataset
 
 ### Finding 1 — Delivery Time Directly Causes Review Score Drop
 
@@ -192,7 +192,7 @@ Top 3 product categories account for the majority of orders. If any one of these
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -207,7 +207,7 @@ Top 3 product categories account for the majority of orders. If any one of these
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 rootlens-ai/
@@ -249,7 +249,7 @@ your-downloads-folder/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -299,7 +299,7 @@ http://localhost:8501
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 ```
 streamlit==1.35.0
@@ -316,19 +316,19 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Example Output
+##  Example Output
 
 ```
 ROOT CAUSE CHAIN DISCOVERED
 ════════════════════════════════════════════════════
 
-🛣️  Route Failures     → Delivery routes failing in São Paulo
+  Route Failures     → Delivery routes failing in São Paulo
       ↓
-📦  Late Delivery      → 19% increase in delayed orders
+  Late Delivery      → 19% increase in delayed orders
       ↓
-😠  Bad Reviews        → 23% spike in 1–2 star ratings
+  Bad Reviews        → 23% spike in 1–2 star ratings
       ↓
-💸  Revenue Drop       → 11% reduction in repeat buyers
+  Revenue Drop       → 11% reduction in repeat buyers
 
 Confidence: 91%
 Source: orders.csv + reviews.csv + payments.csv
@@ -344,34 +344,14 @@ RECOMMENDATIONS
 
 ---
 
-## 📈 Dashboard Tabs
+## Dashboard Tabs
 
 | Tab | What It Shows |
 |-----|--------------|
-| 🔍 Root Cause | Root cause chain visualization + real delivery vs review chart + fix recommendations |
-| 📊 Key Findings | 5 key findings from your uploaded data with interactive charts |
-| 🔗 Correlations | Cross-dataset correlation bar chart + internal heatmaps per dataset |
-| 📋 Data Explorer | Browse cleaned data row by row, view column statistics |
-| 📄 Report | Full downloadable analysis report in Markdown format |
+|  Root Cause | Root cause chain visualization + real delivery vs review chart + fix recommendations |
+|  Key Findings | 5 key findings from your uploaded data with interactive charts |
+|  Correlations | Cross-dataset correlation bar chart + internal heatmaps per dataset |
+|  Data Explorer | Browse cleaned data row by row, view column statistics |
+|  Report | Full downloadable analysis report in Markdown format |
 
----
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-## 🙏 Acknowledgements
-
-- [Olist](https://olist.com/) for making this dataset publicly available
-- [Kaggle](https://www.kaggle.com/) for hosting the dataset
-- [Streamlit](https://streamlit.io/) for the web framework
-- [Plotly](https://plotly.com/) for interactive visualizations
 
